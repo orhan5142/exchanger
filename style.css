@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    
+    
+}
+.header{
+    /* width:100vw;*/
+    width:100%;
+    height:50px;
+    background-color:#F5F5F6;
+    margin-top:0px;
+    display:flex;
+    justify-content:space-between;
+}
+.header-previous{
+    width:89px;
+    height:23px;
+    margin-left:100px;
+    display:flex;
+    margin-top:15px;
+}
+.header-carusel{
+    display:flex;
+    gap:13px;
+    align-items:center;
+}
+.header-right{
+    width: 58px;
+    height: 33px;
+    top: 9px;
+    margin-right:102px;
+    border-radius: 4px;
+    background-color:#FFFFFF;
+    margin-top:9px;
+}
+.header-right-word{
+    font-weight: 500;
+    font-size: 11px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.body-container{
+    width: 641px;
+    height: 246px;
+}
+.body-title{
+    width: 587px;
+    height: 32px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+}
+.body-first-block-title{
+    width: 120px;
+    height: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top:33px;
+    color:#9F9F9F;
+    translate: 0px 5px;
+}
+.body-first-block-carusel, .body-second-block-carusel{
+    width: 259px;
+    height: 30px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+
+}
+/* .line{
+    border-left: 1px solid #E5E5E5;
+    height:30px;
+} */    
+.body-first-result-value{
+    width: 259px;
+    height: 102px;
+    margin-top:20px;
+    border:1px solid #E5E5E5;
+    border-radius:3px;
+
+}
+.body-second-block-title{
+    width: 120px;
+    height: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top:33px;
+    color:#9F9F9F;
+    translate: 0px 5px;
+}
+.body-second-result-value{
+    width: 259px;
+    height: 102px;
+    margin-top:20px;
+    border:1px solid #E5E5E5;
+    border-radius:3px;
+
+}
+.general-line-container{
+    display:flex;
+    gap:123px;
+    
+    
+}
+.first-container{
+    display:flex;
+    flex-direction:column;
+}
+.position{
+    display:flex;
+    justify-content:center;
+    margin-top:56px;
+}
+.body-first-result, .body-second-result {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top:2px;
+
+}
+input {
+    width: 200px;
+    height: 40px;
+    padding: 8px 12px;
+    border:none;  
+}
+input:focus{
+    outline: none;
+}
+.body-first-value , .body-second-value{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left:16px;
+    margin-top:20px;
+    color:#C6C6C6;
+
+
+}
+.body-first-block-carusel-child1 ,.body-first-block-carusel-child2 ,.body-first-block-carusel-child3 ,.body-first-block-carusel-child4 , .body-second-block-carusel-child1 ,.body-second-block-carusel-child2 ,.body-second-block-carusel-child3 ,.body-second-block-carusel-child4{
+
+    padding:8.8px 20.6px;
+    color:#C6C6C6;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    border: 1px solid #E5E5E5;
+    cursor:default;
+
+
+}
+.body-first-block-carusel-child1, .body-second-block-carusel-child1 {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.body-first-block-carusel-child4, .body-second-block-carusel-child4 {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.body-first-block-carusel-child1{
+    background-color:#833AE0;
+    color:white
+}
+.body-second-block-carusel-child2{
+    background-color:#833AE0;
+    color:white;
+}
+.header-carusel-child1 ,.header-carusel-child2 ,.header-carusel-child3 ,.header-carusel-child4 ,.header-carusel-child5,.header-carusel-child6,.header-carusel-child7{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 11px;
+    color:#959BA4;
+    margin-left:13px;
+    margin-right:21px;
+
+}
+.header-carusel-child1{
+    color:black
+}
+.internet {
+    bottom: 20px;
+    width:50vw;
+    background-color: #ff4444;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    display: none;
+    margin: 100px auto;
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        align-items: center;
+    }
+    
+    .header-previous {
+        margin-left: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+    
+    .header-carusel {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+        gap: 8px;
+    }
+    
+    .header-right {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+    
+    .position {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    
+    .body-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .body-title {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .general-line-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .first-container, .second-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .body-first-block-carusel, .body-second-block-carusel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body-first-result-value, .body-second-result-value {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .header-previous {
+        margin-left: 0;
+    }
+    
+    .header-carusel {
+        gap: 8px;
+    }
+    
+    .header-right {
+        margin-right: 0;
+    }
+    
+    .position {
+        margin-top: 40px;
+        padding: 0 30px;
+    }
+    
+    .body-container {
+        width: 100%;
+        max-width: 700px;
+    }
+    
+    .body-title {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    .general-line-container {
+        gap: 40px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .header-previous {
+        margin-left: 50px;
+    }
+    
+    .header-right {
+        margin-right: 50px;
+    }
+}
